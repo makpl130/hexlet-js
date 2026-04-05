@@ -1,4 +1,7 @@
-import _ from "lodash";
+import logLastToConsole from './src/index.js'
 
-console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
+const data=["one", "two"];
+
+const message = logLastToConsole(data);
+
+console.log(`Last message is ${message}`);
